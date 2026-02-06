@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projet arrosage " company="STI2D" webLink="http://" view-date="2025-11-18" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet arrosage " company="STI2D" webLink="http://" view-date="2026-01-16" view-index="0" gantt-divider-location="241" resource-divider-location="300" version="3.3.3322" locale="fr_FR">
     <description><![CDATA[Projet de crréation d'un système d'arrosage.]]></description>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="200" order="0"/>
-        <field id="tpd4" name="Date de début" width="75" order="1"/>
-        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <field id="tpd3" name="Nom" width="137" order="0"/>
+        <field id="tpd4" name="Date de début" width="51" order="1"/>
+        <field id="tpd5" name="Date de fin" width="52" order="2"/>
         <field id="tpd15" name="Notes" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
@@ -84,13 +84,13 @@
 
 Méthodes: Effectuer des recherches sur internet pour trouver les différentes méthodes existantes.
 
-Conclusion: Il existe plusieurs systèmes divers variés pour que chacun puisse trouer ce qui lui convient entre les systèmes d'arrosage manuels ou automatique.]]></notes>
+Conclusion: Il existe plusieurs systèmes divers variés pour que chacun puisse trouver ce qui lui convient entre les systèmes d'arrosage manuels ou automatique.]]></notes>
             <depend id="1" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="1" uid="2dfa82b0c9e6495fabc88f7352dc985c" name="Jalon des recherche de solutions existantes" meeting="true" start="2025-11-28" duration="0" complete="0" expand="true">
             <depend id="2" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="2" uid="1a75284ecdf5408ab416242780a426e5" name="Analyse du besoin" meeting="false" start="2025-11-28" duration="7" complete="0" expand="true">
+        <task id="2" uid="1a75284ecdf5408ab416242780a426e5" name="Analyse du besoin" meeting="false" start="2025-11-28" duration="10" complete="0" expand="true">
             <notes><![CDATA[Objectifs: Analyse du besoin par le contexte et la création d'un croquis.
 
 Méthodes: Etudier un contexte précis avec plusieurs contraintes et établir un diagramme des cas d'utilisations adapté à cette situation.
@@ -99,7 +99,32 @@ Conclusion: Certains systèmes d'arrosages sont plus adaptés que d'autres.
 ]]></notes>
             <depend id="3" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="3" uid="4c3050d1bec54b2e8e611386fa794038" name="Jalon analyse du bseoin" meeting="true" start="2025-12-09" duration="0" complete="0" expand="true"/>
+        <task id="3" uid="4c3050d1bec54b2e8e611386fa794038" name="Jalon analyse du besoin" meeting="true" start="2025-12-12" duration="0" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="d4aea8bf0600450797c0cfd7a8e516b0" name="Réalisation du projet" meeting="false" start="2025-12-12" duration="38" complete="0" expand="true">
+            <notes><![CDATA[Objectifs: Réaliser le système à l'aide d'un code et d'une modélisation 3d.
+
+
+Méthodes: Penser à un système de pompe optimale pour une plante d'intérieur et se baser dessus pour réaliser le projet.
+
+
+Conclusion: Le projet est réalisé et terminé grâce au codage et à la modélisation 3D.]]></notes>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="3efd6776d4c24d87b7275e9e05ad15cc" name="Conception Code" meeting="false" start="2025-12-12" duration="38" complete="0" expand="true">
+            <notes><![CDATA[Objectif: Réaliser le code à utiliser pour faire fonctionner le système d'arrosage.
+
+
+Méthodes: Utiliser l'appli Vittascience pour produire le code et le simuler pour le mettre en situation.
+
+
+Conclusion: Le code nous permet de faire fonctionner notre système de manière a ce qu'ont puisse le contrôler.
+]]></notes>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="f43c3b6d70e7476bb7b920afaf0174bd" name="Jalon Réalisation du projet" meeting="true" start="2026-02-06" duration="0" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Noah" function="Default:1" contacts="" phone=""/>
@@ -108,11 +133,15 @@ Conclusion: Certains systèmes d'arrosages sont plus adaptés que d'autres.
     <allocations>
         <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="3" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
     <roles roleset-name="Default"/>
     <roles>
         <role id="1" name=""/>
+        <role id="2" name="Codeur"/>
+        <role id="3" name="Concepteur"/>
     </roles>
 </project>
