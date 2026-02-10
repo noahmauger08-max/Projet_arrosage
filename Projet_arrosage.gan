@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projet arrosage " company="STI2D" webLink="http://" view-date="2025-12-12" view-index="0" gantt-divider-location="241" resource-divider-location="300" version="3.3.3322" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet arrosage " company="STI2D" webLink="http://" view-date="2025-12-12" view-index="0" gantt-divider-location="474" resource-divider-location="300" version="3.3.3322" locale="fr_FR">
     <description><![CDATA[Projet de crréation d'un système d'arrosage.]]></description>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="137" order="0"/>
-        <field id="tpd4" name="Date de début" width="51" order="1"/>
-        <field id="tpd5" name="Date de fin" width="52" order="2"/>
+        <field id="tpd3" name="Nom" width="270" order="0"/>
+        <field id="tpd4" name="Date de début" width="101" order="1"/>
+        <field id="tpd5" name="Date de fin" width="102" order="2"/>
         <field id="tpd15" name="Notes" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
@@ -90,7 +90,7 @@ Conclusion: Il existe plusieurs systèmes divers variés pour que chacun puisse 
         <task id="1" uid="2dfa82b0c9e6495fabc88f7352dc985c" name="Jalon des recherche de solutions existantes" meeting="true" start="2025-11-28" duration="0" complete="0" expand="true">
             <depend id="2" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="2" uid="1a75284ecdf5408ab416242780a426e5" name="Analyse du contexte" meeting="false" start="2025-11-28" duration="10" complete="100" webLink="https%3A%2F%2Fgithub.com%2Fnoahmauger08-max%2FProjet_arrosage%2Fanalyse-du-besoin%2F" expand="true">
+        <task id="2" uid="1a75284ecdf5408ab416242780a426e5" name="Analyse du contexte" meeting="false" start="2025-11-28" duration="10" complete="100" webLink="https%3A%2F%2Fnoahmauger08-max.github.io%2FProjet_arrosage%2Fanalyse+du+besoin+%2Fanalyse+du+besoin.jpg" expand="true">
             <notes><![CDATA[Objectifs: Analyse du besoin par le contexte et la création d'un croquis.
 
 Méthodes: Etudier un contexte précis avec plusieurs contraintes et établir un diagramme des cas d'utilisations adapté à cette situation.
@@ -101,7 +101,7 @@ Conclusion: Certains systèmes d'arrosages sont plus adaptés que d'autres.]]></
         <task id="3" uid="4c3050d1bec54b2e8e611386fa794038" name="Jalon analyse du besoin" meeting="true" start="2025-12-12" duration="0" complete="0" expand="true">
             <depend id="8" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="8" uid="99ca0532b4914cdf94f3a593f9de0796" name="Revue des idées" meeting="false" start="2025-12-12" duration="5" complete="100" webLink="https%3A%2F%2Fgithub.com%2Fnoahmauger08-max%2FProjet_arrosage%2Fschema%2F" expand="true">
+        <task id="8" uid="99ca0532b4914cdf94f3a593f9de0796" name="Revue des idées" meeting="false" start="2025-12-12" duration="5" complete="100" webLink="https%3A%2F%2Fnoahmauger08-max.github.io%2FProjet_arrosage%2Fschema%2Fschema%2520fr.jpg" expand="true">
             <notes><![CDATA[Objectifs: Déterminer quel système d'arrosage nous allons utiliser pour notre projet
 
 
